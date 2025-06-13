@@ -1,0 +1,75 @@
+@media(max-width:1400px) {
+    .grow {
+        grid-column: 1/13;
+    }
+}
+
+@media(max-width:1200px) {
+    .grid {
+        grid-template-rows: 200px 378px 168px 441.2px 276.2px 580.4px 440.4px 440.4px;
+    }
+    .relative {
+        grid-column: span 12;
+        grid-row: 1 span 1;
+    }
+    .order{
+        grid-column: span 12;
+        grid-row: 2 span 1;
+    }
+    .t-revenu{
+        grid-column: span 4;
+        grid-row: 3 span 1;
+    }
+    .t-order{
+        grid-column: span 4;
+        grid-row: 3 span 1;
+    }
+    .delivered{
+        grid-column: span 4;
+        grid-row: 3 span 1;
+    }
+    .cancelled{
+        grid-column: span 4;
+        grid-row: 3 span 1  ;
+    }
+    .s-revenue{
+        grid-column: span 12;
+        grid-row: 4 span 1;
+    }
+    .t-resourse{
+        grid-column: span 6;
+        grid-row: 5 span 1;
+    }
+    .m-order{
+        grid-column: span 6;
+        grid-row: 5 span 1;
+    }
+    .p-order{
+        grid-column: span 12;
+        grid-row: 6 span 1;
+    }
+    .c-ser{
+        grid-column: span 6;
+        grid-row: 7 span 1;
+    }
+    .s-month{
+        grid-column: span 6;
+        grid-row: 7 span 1;
+    }
+    .t-sell{
+        grid-column: span 6;
+        grid-row: 8 span 1;
+    }
+    .Audiance{
+        grid-column: span 6;
+        grid-row: 8 span 1;
+    }
+
+}
+@media(max-width:992px) {
+
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:576px) {}
